@@ -9,6 +9,6 @@ while not done:
         done = True
 
     else:
-        print("'{}' isn't a number, please give a number !".format(age))
+        print("\'{}\' isn't a number, please give a number !".format(age))
 
 print("Bye !")
