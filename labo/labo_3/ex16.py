@@ -1,6 +1,7 @@
 def tic():
     print("Tic")
 
+
 def tac():
     print("Tac")
 

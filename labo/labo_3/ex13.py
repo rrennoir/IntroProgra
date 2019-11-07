@@ -8,12 +8,12 @@ while not found and nb_of_try < 5:
 
     if nb > mystery_nb:
         print("Trop grand")
-    
+
     elif nb < mystery_nb:
         print("trop petit")
 
     else:
         print("Gégné")
         found = True
-    
+
     nb_of_try += 1

@@ -1,4 +1,5 @@
-command = input("Give a command\n'O' to open a file\n'X' to close the program\n'F' to close the file\n'P' to print the file\nMode: ")
+command = input("Give a command\n'O' to open a file\n'X' to close the program"
+                "\n'F' to close the file\n'P' to print the file\nMode: ")
 
 if command == "O":
     file_name = input("Give file name: ")

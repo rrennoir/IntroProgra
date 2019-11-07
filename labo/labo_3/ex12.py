@@ -6,7 +6,7 @@ while not found:
 
     if nb > mystery_nb:
         print("Trop grand")
-    
+
     elif nb < mystery_nb:
         print("trop petit")
 
