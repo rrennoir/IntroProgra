@@ -11,5 +11,5 @@ while not found:
         print("trop petit")
 
     else:
-        print("Gégné")
+        print("Gagné")
         found = True
