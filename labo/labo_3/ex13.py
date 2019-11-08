@@ -13,7 +13,7 @@ while not found and nb_of_try < 5:
         print("trop petit")
 
     else:
-        print("Gégné")
+        print("Gagné")
         found = True
 
     nb_of_try += 1
