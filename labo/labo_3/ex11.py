@@ -1,7 +1,7 @@
 nb = float(input("Give a number: "))
 nb_temp = nb-1
 
-while nb_temp > 0:
+while nb_temp > 1:
     nb *= nb_temp
     nb_temp -= 1
 
