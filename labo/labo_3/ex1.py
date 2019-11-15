@@ -1,4 +1,4 @@
-nb = 102
+nb = 10
 nb1 = 6
 nb2 = 4
 st = "boutun"
@@ -8,12 +8,13 @@ if type(nb) == int:
 else:
     print("nb isn't an int")
 
-if len(hex(nb)) >= 4:
+nb_hex = hex(nb)
+if nb_hex >= "0x00" and nb_hex <= "0xFF":
     print("nb is a 2 digit hex number!")
 else:
     print("nb isn't a 2 digit hex number!")
 
-if (st[0] == "b") and (st > "bouton"):
+if (st < "c") and (st > "bouton"):
     print("st start by 'b' and is after 'bouton' in the alphabetical order")
 else:
     print("st doesn't start by 'b' and isn't after 'bouton' in the alphabetical order")

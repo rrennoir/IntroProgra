@@ -1,10 +1,10 @@
 def char_converter(charactere):
 
     char_unicode = ord(charactere)
-    if char_unicode >= 65 and char_unicode <= 90:
+    if 65 <= char_unicode <= 90:
         print(chr(char_unicode + 32))
 
-    elif char_unicode >= 97 and char_unicode <= 122:
+    elif 97 <= char_unicode <= 122:
         print(chr(char_unicode - 32))
 
     else:
@@ -12,3 +12,7 @@ def char_converter(charactere):
 
 
 char_converter("Z")
+char_converter("z")
+char_converter("A")
+char_converter("a")
+char_converter("f")

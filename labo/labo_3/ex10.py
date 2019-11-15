@@ -1,7 +1,8 @@
-nb = 0
+nb = int(input("Give a number: "))
 somme = 0
 while nb >= 0:
-    nb = float(input("Give a number: "))
-    somme += nb
 
-print(somme)
+    somme += nb
+    nb = int(input("Give a number: "))
+
+print("Somme: {}".format(somme))

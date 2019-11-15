@@ -1,8 +1,10 @@
-nb = float(input("Give a number: "))
-nb_temp = nb-1
+nb = int(input("Give a number: "))
 
-while nb_temp > 1:
-    nb *= nb_temp
-    nb_temp -= 1
+i = nb
+fact = 1
+while i > 1:
 
-print(nb)
+    fact *= i
+    i -= 1
+
+print(fact)

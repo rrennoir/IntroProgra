@@ -1,19 +1,19 @@
 mystery_nb = 42
-found = False
-nb_of_try = 0
+attemps = 1
 
-print("5 try maximum.")
-while not found and nb_of_try < 5:
-    nb = float(input("Give a number: "))
+nb = int(input("Give a number: "))
+while nb != mystery_nb and attemps < 5:
 
     if nb > mystery_nb:
         print("Trop grand")
 
-    elif nb < mystery_nb:
+    else:
         print("trop petit")
 
-    else:
-        print("Gagné")
-        found = True
+    attemps += 1
+    nb = int(input("Give a number: "))
 
-    nb_of_try += 1
+if mystery_nb == nb and attemps <= 5:
+    print("Gagné")
+else:
+    print("Perdu")

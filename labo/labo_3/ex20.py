@@ -10,12 +10,9 @@ def change_volume():
     print("volume: ", volume)
 
 
-volume = int(input("Give a volume."))
-finish = False
-while not finish:
+volume = int(input("Give a volume: "))
+change = input("up or down? (+ or -) ")
+while change != "X":
 
+    change_volume()
     change = input("up or down? (+ or -) ")
-    if change == "X":
-        finish = True
-    else:
-        change_volume()

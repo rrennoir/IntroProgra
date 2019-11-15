@@ -1,7 +1,8 @@
-number = float(input("Give number: "))
-nb_temp = number
+number = int(input("Give number: "))
 
+i = 1
 print("Table of {}\n---------".format(number))
-while nb_temp != (number * 10):
-    nb_temp += number
-    print(nb_temp)
+while i <= 10:
+
+    print(number * i)
+    i += 1

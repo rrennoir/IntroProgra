@@ -1,4 +1,4 @@
 number = float(input("Nombre: "))
-result = bool((number + 1) % 2)
+result = number % 2 == 0
 
 print("Pair:", result)

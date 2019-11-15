@@ -1,4 +1,4 @@
-number = abs(float(input("Nombre: ")))
+number = int(input("Nombre: "))
 
 int_number = number // 1
 float_number = number - int_number

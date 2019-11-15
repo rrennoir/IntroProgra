@@ -1,15 +1,15 @@
 mystery_nb = 42
-found = False
 
-while not found:
-    nb = float(input("Give a number: "))
+nb = int(input("Give a number: "))
+while nb != mystery_nb:
 
     if nb > mystery_nb:
         print("Trop grand")
 
-    elif nb < mystery_nb:
+    else:
         print("trop petit")
 
-    else:
-        print("Gagné")
-        found = True
+    nb = int(input("Give a number: "))
+
+
+print("Gagné")

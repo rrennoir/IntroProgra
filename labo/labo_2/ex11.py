@@ -6,25 +6,29 @@ if number <= 15 and number >= 0:
     bit_number = ""
 
     if number_tmp // 8 == 1:
-         bit_number += "1"
-         number_tmp -= 8
+        bit_number += "1"
+        number_tmp -= 8
+
     else:
         bit_number += "0"
 
     if number_tmp // 4 == 1:
-         bit_number += "1"
-         number_tmp -= 4
+        bit_number += "1"
+        number_tmp -= 4
+
     else:
         bit_number += "0"
 
     if number_tmp // 2 == 1:
         bit_number += "1"
         number_tmp -= 2
+
     else:
         bit_number += "0"
 
     if number_tmp == 1:
         bit_number += "1"
+
     else:
         bit_number += "0"
 
